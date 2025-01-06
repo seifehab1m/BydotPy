@@ -43,7 +43,13 @@ const Signup = () => {
         name="phone"
         label={t("phoneNumber") + "*"}
         required={false}
-        rules={[{ required: true, message: t("pleaseEnterYourPhoneNumber") }]}
+        rules={[
+          {
+            required: true,
+            message: t("pleaseEnterYourPhoneNumber"),
+            min: 15,
+          },
+        ]}
       >
         <div className="phoneNumberWrapper relative">
           <Suspense
