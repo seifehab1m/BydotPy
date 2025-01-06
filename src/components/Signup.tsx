@@ -82,7 +82,7 @@ const Signup = () => {
         required={false}
         rules={[
           { required: true, message: t("pleaseEnterYourPassword") },
-          { min: 6, message: t("passwordMinLength") },
+          { min: 8, message: t("passwordMinLength") },
         ]}
       >
         <Input.Password placeholder={t("enterYourPassword")} />

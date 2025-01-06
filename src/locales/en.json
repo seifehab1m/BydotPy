@@ -11,7 +11,7 @@
   "pleaseEnterYourPhoneNumber": "Please enter valid phone number",
   "enterPhoneNumber": "Enter phone number",
   "pleaseEnterYourPassword": "Please enter your password",
-  "passwordMinLength": "Password must be at least 6 characters",
+  "passwordMinLength": "Must be at least 8 characters.",
   "enterYourPassword": "Enter your password",
   "getStarted": "Get started",
   "yourDetails": "Your details",

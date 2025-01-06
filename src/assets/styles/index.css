@@ -198,3 +198,11 @@ body {
   inset-inline-start: 11px;
   padding: 32px 0px 0px;
 }
+
+
+.ant-form-item .ant-form-item-explain-error 
+{
+  color: #475467;
+  font-size: 14px;
+  font-weight: 400;
+}
